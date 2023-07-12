@@ -3,7 +3,7 @@ I have spent quite a while recreating Facebook UI Clone using React, and I am th
 
 <br>
 
-<img src="https://img.shields.io/badge/vite%20-%646CFF.svg?&style=for-the-badge&logo=vite&logoColor=white">   <img src="https://img.shields.io/badge/css3%20-%2314354C.svg?&style=for-the-badge&logo=css3&logoColor=white">   <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+<img src="https://img.shields.io/badge/vite%20-%FFFF00FF.svg?&style=for-the-badge&logo=vite&logoColor=white">   <img src="https://img.shields.io/badge/css3%20-%2314354C.svg?&style=for-the-badge&logo=css3&logoColor=white">   <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 
 <br>
 
