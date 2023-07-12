@@ -11,12 +11,16 @@ export default function PhotoPost({dp, name, ago, likes, comments, shares, desc,
     const container = useRef()
 
     useEffect(() => {
-        likeBtn.current.classList.toggle('active')
-        reactQuantity.current.classList.toggle('activequan')
+        if(isLike){
+            likeBtn.current.classList.toggle('active')
+            reactQuantity.current.classList.toggle('activequan')
+        }
     }, [isLike])
 
     useEffect(() => {
-        dotMenu.current.classList.toggle('active')
+        if(isMenu){
+            dotMenu.current.classList.toggle('active')
+        }
     }, [isMenu])
 
     useEffect(() => {
