@@ -13,11 +13,11 @@ I have spent quite a while recreating Facebook UI Clone using React, and I am th
 
 ## 🌻 Here are some of the features of Facebook UI Clone:
 
-- Unlimited New Post: Users can create and share an unlimited number of new posts.
-- Hide New and Existing Posts: Users have the option to hide both new and existing posts from their feed.
-- Like New and Existing Posts:  Users can like both new posts and posts that already exist on the platform.
-- Delete Friend Request: Users can delete the existing friend request.
-- Stories Slider: Includes a stories slider feature, allowing users to view stories in a slideable format.
+- <strong>Unlimited New Post:</strong> Users can create and share an unlimited number of new posts.
+- <strong>Hide New and Existing Posts:</strong> Users have the option to hide both new and existing posts from their feed.
+- <strong>Like New and Existing Posts:</strong>  Users can like both new posts and posts that already exist on the platform.
+- <strong>Delete Friend Request:</strong> Users can delete the existing friend request.
+- <strong>Stories Slider:</strong> Includes a stories slider feature, allowing users to view stories in a slideable format.
 
 <br>
 
