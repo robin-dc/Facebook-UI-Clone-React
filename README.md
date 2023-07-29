@@ -1,5 +1,5 @@
 # Facebook UI Clone React : Overview
-I have spent quite a while recreating Facebook UI Clone using React, and I am thrilled to present version 2.0.0. The journey to complete this project using a framework has been challenging, but the perseverance has paid off. Though the process may have seemed slow, I am delighted to have accomplished this milestone.
+I have spent quite a while recreating Facebook UI Clone using React, and I am thrilled to present version 2.0.0. The journey to complete this project in a framework has been challenging, but the perseverance has paid off. Though the process may have seemed slow, I am delighted to have accomplished this milestone.
 
 <br>
 
@@ -11,6 +11,16 @@ I have spent quite a while recreating Facebook UI Clone using React, and I am th
 
 <br>
 
+## 🌻 Here are some of the features of Facebook UI Clone:
+
+- Unlimited New Post: Users can create and share an unlimited number of new posts.
+- Hide New and Existing Posts: Users have the option to hide both new and existing posts from their feed.
+- Like New and Existing Posts:  Users can like both new posts and posts that already exist on the platform.
+- Delete Friend Request: Users can delete the existing friend request.
+- Stories Slider: Includes a stories slider feature, allowing users to view stories in a slideable format.
+
+<br>
+
 ## 🚀 Install all dependencies:
 ```sh
 npm install
@@ -19,5 +29,3 @@ npm install
 ## 📍 Version 1.0.0
 - https://facebook-darkmode-clone.netlify.app
 - https://github.com/robin-dc/Facebook-UI-Clone.git
-
-
