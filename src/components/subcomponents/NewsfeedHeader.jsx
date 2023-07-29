@@ -1,7 +1,24 @@
+import { useEffect, useState } from "react";
 import Myday from "./Myday";
 import NewPostForm from "./NewPostForm";
 
 export default function NewsfeedHeader({setPost}){
+    const [isMobile, setIsMobile] = useState(false)
+
+    useEffect(() => {
+        function changeText(e){
+            const screenWidth = e.target.innerWidth
+            if(screenWidth <= 700){
+                setIsMobile(true)
+            }
+            else{
+                setIsMobile(false)
+            }
+        }
+        window.addEventListener('resize', changeText)
+
+        return () => window.removeEventListener('resize', changeText)
+    })
     return (
         <>
             <div className="newsfeed flex-column stories-wrapper">
@@ -23,7 +40,7 @@ export default function NewsfeedHeader({setPost}){
                     </div>
                     <div className="flex-row interact-icons ii2">
                         <img src="images/photo.png" alt=""/>
-                        <p id="photo">Photo/Video</p>
+                        <p id="photo">{isMobile ? "Photo" : "Photo/Video"}</p>
                     </div>
                     <div className="flex-row interact-icons ii3">
                         <img src="images/happy.png" alt=""/>

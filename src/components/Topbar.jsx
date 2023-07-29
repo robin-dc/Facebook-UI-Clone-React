@@ -54,7 +54,7 @@ export default function Topbar(){
                         <ul className="new">
                             <h3> What's New?    </h3>
                             <li>• Unlimited New Post</li>
-                            <li>• Delete Existing Posts</li>
+                            <li>• Hide New and Existing Posts</li>
                             <li>• Like Posts</li>
                             <li>• Delete Friend Request</li>
                             <li>• Stories Slider</li>
